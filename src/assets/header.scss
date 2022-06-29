@@ -1,0 +1,22 @@
+@import '_variables.scss';
+
+header {
+  #logo {
+    max-width: 400px;
+  }
+
+  .navbar-links {
+    flex-grow: 1;
+    text-align: right;
+
+    a {
+      color: $color4;
+      text-decoration: none;
+      padding: 1rem;
+
+      &:hover {
+        color: $color6;
+      }
+    }
+  }
+}
