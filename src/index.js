@@ -7,6 +7,7 @@ import Stay from './routes/stay';
 import Travel from './routes/travel';
 import Homepage from './routes/homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 import './assets/global.scss';
 import * as Constants from './constants';
 

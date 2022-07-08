@@ -10,9 +10,10 @@ header {
     text-align: right;
 
     a {
-      color: $color4;
+      color: $color5;
       text-decoration: none;
       padding: 1rem;
+      font-weight: bold;
 
       &:hover {
         color: $color6;

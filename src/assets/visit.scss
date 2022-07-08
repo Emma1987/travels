@@ -1,0 +1,28 @@
+@import '_variables.scss';
+
+.places-to-stay-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  .place-container {
+    width: 25%;
+    padding: 0 2rem 2rem 2rem;
+
+    .card {
+      min-width: 75%;
+      border: none;
+
+      .fav-icon {
+        //min-width: 2rem;
+        position: absolute;
+        top: .3rem;
+        right: .6rem;
+        color: $color5;
+      }
+
+      .card-img-top {
+        border-radius: 1rem;
+      }
+    }
+  }
+}
